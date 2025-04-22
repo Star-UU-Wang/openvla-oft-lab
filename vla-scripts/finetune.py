@@ -3,8 +3,11 @@ finetune.py
 
 Fine-tunes OpenVLA via LoRA.
 """
-
+import sys
 import os
+
+sys.path.append("/mnt/data/wangtianyu/openvla-oft-lab")
+
 import time
 from collections import deque
 from dataclasses import dataclass

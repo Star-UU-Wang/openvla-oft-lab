@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Datasets & Models
+LIBERO/
+openvla/
+run/
+
 # Distribution / packaging
 .Python
 build/
